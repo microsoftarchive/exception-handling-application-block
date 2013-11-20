@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata schemaVersion="2">
+    <id>EnterpriseLibrary.ExceptionHandling</id>
+    <version>$Microsoft_Practices_EnterpriseLibrary_ExceptionHandling_Version$</version>
+    <title>Exception Handling Application Block (PRE-RELEASE)</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft; patterns-and-practices</owners>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>http://ehab.codeplex.com</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>The Exception Handling Application Block helps developers create a consistent strategy for processing exceptions that occur in various architectural layers of an enterprise application.</description>
+    <summary>The Exception Handling Application Block helps developers create a consistent strategy for processing exceptions that occur in various architectural layers of an enterprise application.</summary>
+    <tags>entlib entlib6 Enterprise Library exception handling management ehab error eab LOB futures OSS</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="NuGet\Readme.txt" target="" />
+    <file src="NuGet\tools\SharedCommon\install.ps1" target="tools" />
+    <file src="NuGet\tools\SharedCommon\Utils.psm1" target="tools" />
+  </files>
+</package>

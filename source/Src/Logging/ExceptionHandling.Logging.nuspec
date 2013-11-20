@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata schemaVersion="2">
+    <id>EnterpriseLibrary.ExceptionHandling.Logging</id>
+    <version>$Microsoft_Practices_EnterpriseLibrary_ExceptionHandling_Logging_Version$</version>
+    <title>Exception Handling Application Block Logging Handler (PRE-RELEASE)</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft; patterns-and-practices</owners>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>http://ehab.codeplex.com</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This exception handler lets you log formatted exception information in locations specified in the configuration file.</description>
+    <summary>This exception handler lets you log formatted exception information in locations specified in the configuration file.</summary>
+    <tags>entlib entlib6 Enterprise Library exception ehab error management eab logging lab handler LOB futures OSS</tags>
+    <dependencies>
+      <dependency id="EnterpriseLibrary.ExceptionHandling" version="$Microsoft_Practices_EnterpriseLibrary_ExceptionHandling_Version$" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="NuGet\Readme.txt" target="" />
+    <file src="NuGet\tools\SharedCommon\install.ps1" target="tools" />
+    <file src="NuGet\tools\SharedCommon\Utils.psm1" target="tools" />
+  </files>
+</package>
